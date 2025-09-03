@@ -1,19 +1,19 @@
-# 🐶🐱 CNN Image Classification - Dogs vs Cats  
+# CNN Image Classification - Dogs vs Cats  
 
 This project implements a **Convolutional Neural Network (CNN)** using **TensorFlow & Keras** to classify images of dogs and cats. The model is trained with real-world image augmentation techniques and evaluated for accuracy.  
 
 ---
 
-## 🚀 Features
+## Features
 - Built with **TensorFlow & Keras**
 - **Image Augmentation** (rotation, zoom, shear, flips) for better generalization  
-- **Binary Classification** (Dog 🐶 vs Cat 🐱)  
+- **Binary Classification** (Dog vs Cat )  
 - Trained with **CNN architecture (Conv2D + MaxPooling layers)**  
 - Uses **train/validation split** for proper evaluation  
 
 ---
 
-## 📂 Dataset
+## Dataset
 - Dataset is organized into subfolders under `Dataset/`
   - `Dataset/train/cats`
   - `Dataset/train/dogs`
@@ -21,7 +21,7 @@ This project implements a **Convolutional Neural Network (CNN)** using **TensorF
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Python 3.x**
 - **TensorFlow / Keras**
 - **NumPy**
@@ -29,7 +29,7 @@ This project implements a **Convolutional Neural Network (CNN)** using **TensorF
 
 ---
 
-## ⚙️ Model Architecture
+##  Model Architecture
 ```text
 Input: (150 x 150 x 3)
 ↓ Conv2D (32 filters, ReLU) + MaxPooling
@@ -58,14 +58,14 @@ Place your dataset inside the Dataset/ folder (with cats/ and dogs/ subfolders).
 
 Run the script:
 
-python cnn_dog_cat.py
+python 1_testimg.py
 
 
 Model will train for given epochs and show accuracy/loss graphs.
 
 📈 Results
 
-Achieved ~85% accuracy on validation data.
+Achieved ~81% accuracy on validation data.
 
 Data augmentation helped reduce overfitting.
 
@@ -82,7 +82,5 @@ Deploy as a Flask / FastAPI Web App
 ✨ Author
 
 Noor Alam
+AI/ML & Deep Learning Enthusiast
 
-💻 AI/ML & Deep Learning Enthusiast
-
-🔍 Exploring Computer Vision for real-world applications
